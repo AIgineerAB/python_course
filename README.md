@@ -9,8 +9,8 @@ The course is a beginner course, but it is good to have some prior knowledge of 
 | 1        | setup, git, github, uv, I/O, variables, data types, dynamical typing, if-statement  | 00-05a       | 0,1          |
 | 2        | control flows, for, while, list, list comprehensions, tuples, sets                  | 05-06        | 2,3          |
 | 3        | strings, dictionary, file handling                                                  | 07-09        | 4, lab 1     |
-| 4        | error handling, functions, matplotlib                                               | 10-11        | lab 1        |
-| 5        | OOP fundamentals, class, dunder methods, instantiation, object, methods, attributes |              | lab 1        |
-| 6        | OOP polymorphism, inheritance                                                       |              | lab 2        |
+| 4        | error handling, functions, matplotlib                                               | 10-12        | lab 1        |
+| 5        | OOP fundamentals, class, dunder methods, instantiation, object, methods, attributes | 13           | lab 1        |
+| 6        | OOP polymorphism, inheritance                                                       | 14-15        | lab 2        |
 | 7        | modules, path, pydantic data validation                                             |              | lab 2        |
 | 8        | unit testing with pytest                                                            |              | lab 2        |
