@@ -124,6 +124,19 @@ Now initialize a project by typing this
 uv init --no-package --python 3.14
 ```
 
+Now install some packages 
+```bash
+uv add ipykernel matplotlib
+```
+
+Create a file with ending .ipynb, this is a jupyter notebook. Try it out and type in a cell
+
+```python
+print("hello world")
+```
+
+And then run
+
 ## Python file types
 
 > [!NOTE]
