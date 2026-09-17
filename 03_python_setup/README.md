@@ -3,26 +3,53 @@
 In this section, we will go through steps to set up python and related tools in your local machine. The target is to use Visual Studio Code as the code editor to work on jupyter notebooks under a virutal environment. The demo below is using windows OS, but there are additional notes for differences in mac OS. 
 
 ## Video 
-**Installing python on windows part 1** </br>
-<a href="https://youtu.be/dteU94PSNoQ" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/python_videos/setup_part1.png?raw=true" alt="python setup part 1" width="600">
-</a>
 
-**Installing python on windows part 2**</br>
-<a href="https://youtu.be/Lkr6yRUCHbA" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/python_videos/setup_part2.png?raw=true" alt="python setup part 1" width="600">
-</a>
+## TODO: video setup
+
+<!-- **Installing python on windows part 1** </br> -->
+<!-- <a href="https://youtu.be/dteU94PSNoQ" target="_blank"> -->
+  <!-- <img src="https://github.com/kokchun/assets/blob/main/python_videos/setup_part1.png?raw=true" alt="python setup part 1" width="600"> -->
+<!-- </a> -->
+<!--  -->
+<!-- **Installing python on windows part 2**</br> -->
+<!-- <a href="https://youtu.be/Lkr6yRUCHbA" target="_blank"> -->
+  <!-- <img src="https://github.com/kokchun/assets/blob/main/python_videos/setup_part2.png?raw=true" alt="python setup part 1" width="600"> -->
+<!-- </a> -->
 
 
 ## Instructions
 
-### 1. Install Python
+### 1. Install uv
 
+> ### For windows
+> open up powershell and type in
+> ```bash
+> powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex" 
+>```
+
+
+
+> ### 🍎 For macOS:
+> open up a terminal and type
+> ```bash
+> curl -LsSf https://astral.sh/uv/install.sh | sh
+> ```
+
+
+Then restart the terminal/powershell/git bash and type in 
+
+```bash
+uv --version
+```
+
+if you get a version back then it is successful.
+
+<!-- 
 Before you start, check if you have python and its package manager installed with command prompt:
 <img src="https://github.com/kokchun/assets/blob/main/install_python/check_window.png?raw=true" alt="dbeaver navigation">
 
-> ## 🍎 For macOS:
 
+> ## 🍎 For macOS:
 <img src="https://github.com/kokchun/assets/blob/main/install_python/check_mac.png?raw=true" alt="check_mac">
 
 If you do not have python installed, download it by choosing your desired python version and the correct OS:
@@ -37,7 +64,7 @@ During installation, choose to add python.exe to PATH. This is for easily runnin
 Additionally for mac OS, you need to double click the file called *Install Certificates.command* under *Application* folder after installation. This is to avoid issues with SSL that python can encounter, for instance, when installing packages from the internet. 
 > ## 🍎 For macOS:
 > Double click on this file 
-> ![certifications](https://github.com/kokchun/assets/blob/main/install_python/installcert.png?raw=true)
+> ![certifications](https://github.com/kokchun/assets/blob/main/install_python/installcert.png?raw=true) -->
 
 ### 2. Install VS Code
 
@@ -49,6 +76,8 @@ Now you can create a folder for your project under *Documents*. You can now navi
 
 ### 3. Create virtual environment
 
+
+<!-- 
 > [!NOTE]                                                                      
 > A virtual environment is an isolated environment for a specific project. Being isolated means that you can install different python libraries for each project. Furthermore, you can install different versions of the same library for different project </br>
 >
@@ -70,42 +99,30 @@ Now you can open your project in VS Code. In the terminal of VS code, use ```uv 
 > A *.venv* folder is now created under your project directory. But you still need to activate this virtural environment before installing libraries into it.      
 
 <img src="https://github.com/kokchun/assets/blob/main/install_python/venv.png?raw=true" alt="dbeaver navigation">
-
+ -->
 
 ## In case of error - uv not found
 
 If you encounter an error of *uv not found* in this step, make sure that you have the python scripts directory in the environment variable in your machine: 
-<img src="https://github.com/kokchun/assets/blob/main/install_python/environment_variable.png?raw=true" alt="dbeaver navigation">
-<img src="https://github.com/kokchun/assets/blob/main/install_python/environment_variable_2.png?raw=true" alt="dbeaver navigation">
-<img src="https://github.com/kokchun/assets/blob/main/install_python/python_paths.png?raw=true" alt="dbeaver navigation">
+
+<img width="500" src="https://github.com/kokchun/assets/blob/main/install_python/environment_variable.png?raw=true" alt="environment variable">
+
+<img width="500" src="https://github.com/kokchun/assets/blob/main/install_python/
+environment_variable_2.png?raw=true" alt="find environment variables">
+
+<img width="500" src="https://github.com/kokchun/assets/blob/main/python/
+uv_path.png?raw=true" alt="uv path">
 
 
-## Install some packages 
+## Initialize a project
 
-Activate your virtual environment in windows git bash
+Open up your repo in vscode and open up a terminal. If you are in windows make sure to set the terminal to git bash as default. 
 
+Now initialize a project by typing this
+
+```bash
+uv init --no-package --python 3.14
 ```
-source .venv/Scripts/activate 
-```
-
-and in mac terminal
-```
-source .venv/bin/activate 
-```
-
-then install packages with
-
-```py
-uv pip install ipykernel matplotlib numpy
-```
-
-## Alternative way to install packages 
-
-> [!NOTE]
-> Alternatively, you can create a file called requirements.txt in your project directory, and list the libraries or libraries with their specific versions in the file. Then you can use the syntax below to install dependencies in your virtual environment all at once.
->  ```bash
-> uv pip install -r requirements.txt
->```
 
 ## Python file types
 
