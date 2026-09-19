@@ -4,11 +4,15 @@ In this section, we will go through steps to set up python and related tools in 
 
 ## Video 
 
-## TODO: video setup
+
+**Installing python on windows** </br>
+
+<a href="https://youtu.be/SUr_12JRHO8" target="_blank"> 
+<img src="https://github.com/kokchun/assets/blob/main/python/uv_setup.png?raw=true" alt="python setup part 1" width="600"> 
+</a>
 
 <!-- **Installing python on windows part 1** </br> -->
-<!-- <a href="https://youtu.be/dteU94PSNoQ" target="_blank"> -->
-  <!-- <img src="https://github.com/kokchun/assets/blob/main/python_videos/setup_part1.png?raw=true" alt="python setup part 1" width="600"> -->
+<!-- <a href="https://youtu.be/dteU94PSNoQ" target="_blank">  <img src="https://github.com/kokchun/assets/blob/main/python_videos/setup_part1.png?raw=true" alt="python setup part 1" width="600"> -->
 <!-- </a> -->
 <!--  -->
 <!-- **Installing python on windows part 2**</br> -->
