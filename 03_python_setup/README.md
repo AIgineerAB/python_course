@@ -22,7 +22,7 @@ In this section, we will go through steps to set up python and related tools in 
 ### 1. Install uv
 
 > ### For windows
-> open up powershell and type in
+> open up git bash and paste in
 > ```bash
 > powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex" 
 >```
