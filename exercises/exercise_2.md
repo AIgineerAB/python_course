@@ -52,7 +52,7 @@ The information in the following table is stated in a medicine package. Also it 
 </tbody>
 </table>
 
-Let the user input age and weight, and then the program should give out a dose.
+Let the user input age and weight, and then the program should give out a dose
 
 ## 3. Divisible (\*)
 
