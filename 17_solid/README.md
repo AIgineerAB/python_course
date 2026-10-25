@@ -12,21 +12,6 @@ Liskov substitution principle (LSP)
 Interface segregation principles (ISP)
 Dependency inversion principles (DIP)
 
-## TODO: fill in these principles with some examples
-
-## Single responsibility principle (SRP)
-
-
-## Open closed principle (OCP)          
-
-
-## Liskov substitution principle (LSP)  
-
-
-## Interface segregation principles (ISP)
-
-
-## Dependency inversion principles (DIP)
 
 ## Read more
 
