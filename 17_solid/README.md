@@ -30,9 +30,4 @@ Dependency inversion principles (DIP)
 
 ## Read more
 
-- [Classes - Python docs](https://docs.python.org/3/tutorial/classes.html)
-- [Class instantiation - Real Python](https://realpython.com/python-class-constructor/)
-- [Python namespace scopes - Real Python](https://realpython.com/python-namespaces-scope/)
-- [Special methods](https://www.pythonlikeyoumeanit.com/Module4_OOP/Special_Methods.html)
-
-## Other videos
+- [SOLID - geeksforgeeks](https://www.geeksforgeeks.org/system-design/solid-principle-in-programming-understand-with-real-life-examples/)
