@@ -1,7 +1,7 @@
 # SOLID principles 
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/python_videos/.png?raw=true" alt="oop solid principles" width="600">
+<a href="https://youtu.be/scH7THbLLF0" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/python_videos/SOLID.png?raw=true" alt="oop solid principles" width="600">
 </a>
 
 Solid principle stands for 
